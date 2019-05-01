@@ -1,0 +1,2 @@
+# Tergel
+This is an Android application. It is a project of a college class: Mobile Computing. The idea of this app was thought out and implemented by me. It aims to help non-native chinese speaker learn chinese convient. You can listen, speak(the app will tell you what you speak and it is correct or not), read in this app. There also some small functions like you can settle a time to remind you learn chinese etc.
