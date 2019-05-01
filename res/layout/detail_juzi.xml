@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yzxvoice.MainActivity" >
+
+    
+         <ImageView 
+       android:id="@+id/ting"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:src="@drawable/voice"/>
+      <EditText
+         android:id="@+id/jieguo"
+         android:layout_width="match_parent"
+         android:layout_height="90dp"
+         android:text="我在学中文！" />
+      
+      <LinearLayout
+           android:id="@+id/liangge"
+              android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           android:orientation="horizontal"
+          >
+          
+
+     
+
+
+</LinearLayout>
+              <ImageView 
+       android:id="@+id/beijin"
+ android:layout_below="@id/liangge"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+
+       android:src="@drawable/xuehanyu2"/>
+      
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    
+    
+    
+    
+    <LinearLayout 
+         android:id="@+id/lout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/tian"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="0" 
+                    android:ems="10"
+                    android:inputType="number"
+                    android:layout_weight="100" >
+
+                   
+                </EditText>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="天\nday" />
+
+    </LinearLayout>
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/xiaoshi"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:text="0" 
+                    android:inputType="number"
+                    android:layout_weight="100" >
+
+                   
+                </EditText>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="小时\nhour" />
+
+    </LinearLayout>
+    
+                        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/fenzhong"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="0" 
+                    android:layout_weight="100" >
+
+                   
+                </EditText>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="分钟\nmin" />
+                
+                
+                
+
+    </LinearLayout>
+    
+                                                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/miao"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="0" 
+                    android:layout_weight="100" >
+
+                   
+                </EditText>
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="秒\nsec" />
+                
+                
+                
+
+    </LinearLayout>
+
+                        <Button
+                            android:id="@+id/tongzhi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:onClick="notificationMethod"
+                            android:text="Tell me this later then" />
+        
+    </LinearLayout>
+    
+ <Button
+        android:id="@+id/btn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="notificationMethod"
+               android:visibility="gone"
+        android:text="默认通知(API11之后可用)" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+               android:visibility="gone"
+        android:onClick="notificationMethod"
+        android:text="默认通知(API16之后可用)" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="notificationMethod"
+               android:visibility="gone"
+        android:text="自定义通知" />
+    
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="notificationMethod"
+       android:visibility="gone"
+        android:text="清除通知" />
+    
+
+</LinearLayout>

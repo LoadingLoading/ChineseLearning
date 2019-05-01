@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/color"
+    tools:context=".DetailPinyin" >
+    
+    
+    
+     <ImageView 
+       android:id="@+id/voicec"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:src="@drawable/voice"/>
+     
+     <LinearLayout  android:orientation="horizontal"         
+         android:layout_height="wrap_content"
+         
+         android:layout_gravity="center_vertical"
+         android:layout_width="fill_parent">
+
+         <TextView
+             android:id="@+id/a1c"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_weight="1"
+             android:background="#adff12"
+             android:gravity="center"
+             android:text="\n mā" />
+         
+
+
+
+      
+      </LinearLayout>
+      
+          <LinearLayout  android:orientation="horizontal"         
+         android:layout_height="wrap_content"
+         
+         android:layout_gravity="center_vertical"
+         android:layout_width="fill_parent">
+
+         <TextView
+             android:id="@+id/a11c"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_weight="1"
+
+             android:gravity="center"
+             android:text="\n 妈" />
+         
+   
+
+
+      
+      </LinearLayout>
+      
+          
+               
+      
+          <LinearLayout  android:orientation="horizontal"         
+         android:layout_height="wrap_content"
+         
+         android:layout_gravity="center_vertical"
+         android:layout_width="fill_parent">
+
+         <TextView
+             android:id="@+id/a21c"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:layout_weight="1"
+
+             android:gravity="center"
+             android:text="\n mon" />
+         
+
+
+
+      
+      </LinearLayout>
+      
+                      <TextView 
+         android:id="@+id/resulttc"
+         android:layout_height="wrap_content"
+      
+         android:layout_gravity="center_vertical"
+         android:layout_width="fill_parent"
+         android:text="The result is:"/>
+                      
+                      
+            <TextView 
+                
+         android:id="@+id/resultc"
+         android:layout_height="wrap_content"
+       android:background="#adff12"
+         android:layout_gravity="center_vertical"
+         android:layout_width="fill_parent"
+         android:text="\n\n Here is your result!"/>
+            
+                         <TextView 
+                
+         android:id="@+id/correcttc"
+         android:textSize="40sp"
+         android:layout_height="wrap_content"
+		
+         android:layout_gravity="center_vertical"
+         android:layout_width="fill_parent"
+         android:text="TRY IT, You can do it!"/>
+            
+            
+     
+</LinearLayout>

@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yzxvoice.MainActivity" >
+
+      <EditText
+         android:id="@+id/speakwords"
+         android:layout_width="match_parent"
+         android:layout_height="90dp"
+         android:text="我爱都柏林学院！" />
+      
+      <LinearLayout
+              android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           android:orientation="horizontal"
+          >
+          
+           <Button
+         android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Clear" />
+      
+     <Button
+         android:id="@+id/speakit"
+         android:layout_toRightOf="@id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="speak it" />
+
+</LinearLayout>
+              <ImageView 
+       android:id="@+id/beijin"
+ android:layout_below="@id/speakit"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+
+       android:src="@drawable/xuehanyu"/>
+      
+            <Button
+         android:id="@+id/savebutton"
+            android:visibility="invisible"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="wo cao ni ma" />
+            
+                  <CheckBox
+         android:id="@+id/mcheckbox"
+           android:visibility="invisible"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="wo cao ni ma" />
+
+
+
+</LinearLayout>

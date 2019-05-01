@@ -1,0 +1,252 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
+<GridLayout 
+    android:id="@+id/GridLayout4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:columnCount="7"
+android:orientation="horizontal"
+    android:rowCount="16" >
+    
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_columnSpan="7"
+        android:layout_gravity="fill_horizontal|fill_vertical"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="#AFEEEE"
+        android:text="Cheer up!"
+        android:textSize="50sp" 
+         android:layout_weight="1"/>
+
+
+
+
+  <Button android:text="" android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp" />
+    <Button 
+        android:text="a"  />
+
+    <Button android:text="o" />
+
+    <Button android:text="e" />
+
+    <Button android:text="i" />
+
+    <Button android:text="u" />
+     <Button android:text="ü" />
+     
+
+               
+                    <Button android:text="b" />
+          <Button android:text="ba" android:id="@+id/p011"/>
+           <Button android:text="bo" android:id="@+id/p012"/>
+            <Button android:text="" />
+             <Button android:text="bi" android:id="@+id/p014"/>
+              <Button android:text="bu" android:id="@+id/p015"/>
+               <Button android:text="" />
+               
+                    <Button android:text="p" />
+          <Button android:text="pa" android:id="@+id/p021"/>
+           <Button android:text="po" android:id="@+id/p022"/>
+              <Button android:text="" />
+             <Button android:text="pi" android:id="@+id/p024"/>
+              <Button android:text="pu" android:id="@+id/p025"/>
+               <Button android:text="" />
+               
+                    <Button android:text="m" />
+          <Button android:text="ma" android:id="@+id/p031"/>
+           <Button android:text="mo" android:id="@+id/p032"/>
+            <Button android:text="me" android:id="@+id/p033"/>
+             <Button android:text="mi" android:id="@+id/p034"/>
+              <Button android:text="mu" android:id="@+id/p035"/>
+               <Button android:text="" />
+               
+                    <Button android:text="f" />
+          <Button android:text="fa" android:id="@+id/p041"/>
+           <Button android:text="fo" android:id="@+id/p042"/>
+            <Button android:text="" />
+             <Button android:text="" />
+              <Button android:text="fu" android:id="@+id/p045"/>
+               <Button android:text="" />
+               
+                    <Button android:text="d" />
+          <Button android:text="da" android:id="@+id/p051" />
+           <Button android:text="" />
+            <Button android:text="de" android:id="@+id/p053"/>
+             <Button android:text="di" android:id="@+id/p054"/>
+              <Button android:text="du" android:id="@+id/p055"/>
+               <Button android:text="" />
+               
+                    <Button android:text="t" />
+          <Button android:text="ta" android:id="@+id/p061"/>
+           <Button android:text="" />
+            <Button android:text="te" android:id="@+id/p063"/>
+             <Button android:text="ti" android:id="@+id/p064"/>
+              <Button android:text="tu" android:id="@+id/p065"/>
+               <Button android:text="" />
+               
+                    <Button android:text="n" />
+          <Button android:text="na" android:id="@+id/p071"/>
+           <Button android:text="" />
+            <Button android:text="ne" android:id="@+id/p073"/>
+             <Button android:text="ni" android:id="@+id/p074"/>
+              <Button android:text="nu" android:id="@+id/p075"/>
+               <Button android:text="nü" android:id="@+id/p076"/>
+                              
+                    <Button android:text="l" />
+          <Button android:text="la" android:id="@+id/p081"/>
+           <Button android:text="" android:id="@+id/p082"/>
+            <Button android:text="le" android:id="@+id/p083"/>
+             <Button android:text="li" android:id="@+id/p084"/>
+              <Button android:text="lu" android:id="@+id/p085"/>
+               <Button android:text="lü" android:id="@+id/p086"/>  
+               
+               
+                    <Button android:text="g" />
+          <Button android:text="ga" android:id="@+id/p091"/>
+           <Button android:text="" />
+            <Button android:text="ge" android:id="@+id/p093"/>
+             <Button android:text="" />
+              <Button android:text="gu" android:id="@+id/p095"/>
+               <Button android:text="" />
+                              
+               
+                    <Button android:text="k" />
+          <Button android:text="ka" android:id="@+id/p101"/>
+           <Button android:text="" />
+            <Button android:text="ke" android:id="@+id/p103"/>
+             <Button android:text="" />
+              <Button android:text="ku" android:id="@+id/p105"/>
+               <Button android:text="" />               
+               
+                    <Button android:text="h" />
+          <Button android:text="ha" android:id="@+id/p111"/>
+           <Button android:text="" />
+            <Button android:text="he" android:id="@+id/p113"/>
+             <Button android:text="" />
+              <Button android:text="hu" android:id="@+id/p115"/>
+               <Button android:text="" />               
+               
+                    <Button android:text="j" />
+          <Button android:text="" />
+           <Button android:text="" />
+            <Button android:text="" />
+             <Button android:text="ji" android:id="@+id/p124" />
+              <Button android:text="" />
+               <Button android:text="jü" android:id="@+id/p126"/>               
+               
+                    <Button android:text="q" />
+          <Button android:text="" />
+           <Button android:text="" />
+            <Button android:text="" />
+             <Button android:text="qi" android:id="@+id/p134"/>
+              <Button android:text="" />
+               <Button android:text="qü" android:id="@+id/p136"/>               
+               
+                    <Button android:text="x" />
+          <Button android:text="" />
+           <Button android:text="" />
+            <Button android:text="" />
+             <Button android:text="xi" android:id="@+id/p144"/>
+              <Button android:text="" />
+               <Button android:text="xü" android:id="@+id/p146"/>               
+               
+                    <Button android:text="zh" />
+          <Button android:text="zha" android:id="@+id/p151"/>
+           <Button android:text="" />
+            <Button android:text="zhe" android:id="@+id/p153"/>
+             <Button android:text="zhi" android:id="@+id/p154"/>
+              <Button android:text="zhu" android:id="@+id/p155"/>
+               <Button android:text="" />               
+               
+                    <Button android:text="ch" />
+          <Button android:text="cha" android:id="@+id/p161"/>
+           <Button android:text="" />
+            <Button android:text="che" android:id="@+id/p163"/>
+             <Button android:text="chi" android:id="@+id/p164"/>
+              <Button android:text="chu" android:id="@+id/p165"/>
+               <Button android:text="" />               
+               
+                    <Button android:text="sh" />
+          <Button android:text="sha" android:id="@+id/p171"/>
+           <Button android:text="" />
+            <Button android:text="she" android:id="@+id/p173"/>
+             <Button android:text="shi" android:id="@+id/p174"/>
+              <Button android:text="shu" android:id="@+id/p175"/>
+               <Button android:text="" />              
+               
+                    <Button android:text="r" />
+          <Button android:text="ra" android:id="@+id/p181"/>
+           <Button android:text="" />
+            <Button android:text="re" android:id="@+id/p183"/>
+             <Button android:text="ri" android:id="@+id/p184"/>
+              <Button android:text="ru" android:id="@+id/p185"/>
+               <Button android:text="" />
+               
+                                   <Button android:text="z" />
+          <Button android:text="za" android:id="@+id/p191"/>
+           <Button android:text="" />
+            <Button android:text="ze" android:id="@+id/p193"/>
+             <Button android:text="zi" android:id="@+id/p194"/>
+              <Button android:text="zu" android:id="@+id/p195"/>
+               <Button android:text="" />               
+               
+                    <Button android:text="c" />
+          <Button android:text="ca" android:id="@+id/p201"/>
+           <Button android:text="" />
+            <Button android:text="ce" android:id="@+id/p203"/>
+             <Button android:text="ci" android:id="@+id/p204"/>
+              <Button android:text="cu" android:id="@+id/p205"/>
+               <Button android:text="" />               
+               
+                    <Button android:text="s" />
+          <Button android:text="sa" android:id="@+id/p211"/>
+           <Button android:text="" />
+            <Button android:text="se" android:id="@+id/p213"/>
+             <Button android:text="si" android:id="@+id/p214"/>
+              <Button android:text="su" android:id="@+id/p215"/>
+               <Button android:text="" />              
+               
+                    <Button android:text="y" />
+          <Button android:text="ya" android:id="@+id/p221"/>
+           <Button android:text="yo" android:id="@+id/p222"/>
+            <Button android:text="ye" android:id="@+id/p223"/>
+             <Button android:text="yi" android:id="@+id/p224"/>
+              <Button android:text="" />
+               <Button android:text="yü" android:id="@+id/p226"/>
+               
+                                   <Button android:text="w" />
+          <Button android:text="wa" android:id="@+id/p231"/>
+           <Button android:text="wo" android:id="@+id/p232"/>
+            <Button android:text="" />
+             <Button android:text="" />
+              <Button android:text="wu" android:id="@+id/p235"/>
+               <Button android:text="" />               
+               
+                    
+               
+               
+     
+
+
+
+
+       
+</GridLayout>
+    
+        </ScrollView>
+
+</HorizontalScrollView>

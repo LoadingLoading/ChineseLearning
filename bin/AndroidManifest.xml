@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tergel"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <application
+         android:name=".MyApp"  
+        android:allowBackup="true"
+        android:icon="@drawable/logo_fanxin"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+<receiver android:name="com.example.sample.WidgetProvider">
+
+
+<intent-filter>
+
+<action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+
+</intent-filter>
+
+<meta-data android:name="android.appwidget.provider" android:resource="@layout/widgetconfig"/>
+
+</receiver>
+         
+        
+        
+        
+        
+        
+         <activity
+            android:name=".Pinyin"
+            android:label="@string/app_name" >
+         
+        </activity>
+                 <activity
+            android:name=".MyApp"
+            android:label="@string/app_name" >
+         
+        </activity>
+                 <activity
+            android:name=".Word"
+            android:label="@string/app_name" >
+        </activity>
+                 <activity
+            android:name=".Setting"
+            android:label="@string/app_name" >
+         
+        </activity>
+                 <activity
+            android:name=".Sentence"
+            android:label="@string/app_name" >
+         
+        </activity>
+                 <activity
+            android:name=".Me"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+                                  <activity
+            android:name=".PinyinChoose"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+        <activity
+            android:name="com.xiaos.pinnedheaderexpandable.Groups"
+            android:label="@string/app_name" >
+         
+        </activity>
+                <activity
+            android:name="com.example.androidclient.DetailPinyin"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+                                <activity
+            android:name="com.example.androidclient.DetailJuzi"
+            android:label="@string/app_name" >
+         
+        </activity>
+                        <activity
+            android:name="com.example.androidclient.DetailCiyu"
+            android:label="@string/app_name" >
+         
+        </activity>
+                        <activity
+            android:name="com.example.speakdemo.SpeakWord"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+                        
+                                                <activity
+            android:name=".Notifi"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+
+        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+    	 <receiver android:name="com.ql.activity.AlarmReceiver" android:process=":remote" />
+        <activity android:name="com.ql.activity.Alarm"
+                  android:label="@string/app_name">
+
+        </activity>
+  
+  
+  
+  
+                
+
+        
+    </application>
+    	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+</manifest>

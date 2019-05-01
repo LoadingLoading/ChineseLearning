@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    　  <RadioGroup 
+        android:id="@+id/zaiqian"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton 
+            android:id="@+id/zhong"
+            android:text="你好! (ni2/(3) hao3)  Hello!"/>
+        <RadioButton 
+            android:id="@+id/pinyin"
+            android:text="Hello! (ni2/(3) hao3)   你好!"/>
+                <RadioButton 
+            android:id="@+id/yinwen"
+            android:text="Hello!   你好!(ni2/(3) hao3)"/>
+    </RadioGroup>
+
+</LinearLayout>
+    
+<Button
+                    android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+    android:id="@+id/accept"
+    android:text="Accept" />
+
+</LinearLayout>
